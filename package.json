@@ -11,6 +11,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
+    "lucide-react": "^0.510.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.6.0",
@@ -41,5 +42,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "3"
   }
 }
