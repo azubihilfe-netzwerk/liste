@@ -1,0 +1,12 @@
+.env
+
+# Node modules
+node_modules/
+
+# Cache und Build Dateien
+node_modules/.cache/
+build/
+
+# IDE Dateien
+.idea/
+.vscode/
