@@ -4,7 +4,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",  // Alle JS/TS und React Dateien im src Ordner
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'navbar-blue': '#1a5d5d',
+
+      }
+    },
   },
   plugins: [],
 }
