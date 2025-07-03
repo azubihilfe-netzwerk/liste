@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@directus/sdk": "^19.1.0",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.1.0",
@@ -45,6 +46,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
+    "openapi-typescript": "^7.8.0",
     "postcss": "^8.5.3",
     "tailwindcss": "3"
   }
