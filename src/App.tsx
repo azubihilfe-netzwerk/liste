@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./Component/Navbar";
-import Dashboard from "./Pages/Dashboard";
+import Home from "./Pages/Home";
 import Impressum from "./Pages/Impressum";
 import Footer from "./Component/Footer";
 import Kontakt from "./Pages/Kontakt";
@@ -23,6 +23,7 @@ function App() {
       <div className="flex-1 bg-white/80">
         <main className="pt-28 max-w-screen-2xl mx-auto w-full px-4 py-8">
           <Routes>
+            <Route path="/" element={<Home />} />
             <Route path="/impressum" element={<Impressum />} />
             <Route path="/kontakt" element={<Kontakt />} />
             <Route path="/datenschutz" element={<Datenschutz />} />
